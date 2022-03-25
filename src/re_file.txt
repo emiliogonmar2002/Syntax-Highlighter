@@ -1,0 +1,12 @@
+\/\/.* ComentarioC++
+\#.* ComentarioPython
+"true"|"false"|"True"|"False" LiteralBooleana
+"int"|"long"|"unsigned"|"auto"|"float" LiteralNumerica
+"nullptr"|"None" LiteralDePuntero
+"break"|"if"|"throw"|"else"|"try"|"void"|"for"|"while"|"print" PalabraReservada
+\+|\-|\*|\/|\^ Operador
+\'|\"|\(|\)|\[|\]|\{|\}|\,|\:|\.|\; Delimitadores
+\= Asignacion
+[0-9]* Entero
+[-+]?([0-9]+|[0-9]*\.[0-9]+([eE][-+]?[0-9]+)?) Real
+[a-zA-Z](\_|[a-zA-Z]|[0-9])* Variable
